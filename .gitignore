@@ -1,0 +1,13 @@
+@"
+# envs / venv
+.hw2env/
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+"@ | Out-File -Encoding utf8 .gitignore
