@@ -68,7 +68,7 @@
 После обучения можно запустить блок анализа в `GRPO_full_experiment.py`
 или открыть готовый отчёт:
 
-- `target24_experiment_report.ipynb`
+- `targetNUM_experiment_REPORT.ipynb`
 
 В отчёте собраны:
 - графики `pass@1` и `pass@128`;
