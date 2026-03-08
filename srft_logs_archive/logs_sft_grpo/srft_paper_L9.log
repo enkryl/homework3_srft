@@ -1,0 +1,18 @@
+2026-03-07 22:03:47,141 | INFO | === SRFT-PAPER LEVEL 9 ===
+2026-03-07 22:03:49,726 | INFO | Rollout dataset: mixed levels 1..9, n=18448
+2026-03-07 22:03:49,727 | INFO | Demo dataset: n=19448
+2026-03-07 22:03:56,551 | INFO | step=681 loss=-4.8916 demo_sft=0.1338 demo_rl=-0.7441 rollout_rl=-4.2812 wSFT=0.4414 wRL=0.1758 pos=0 neg=2
+2026-03-07 22:04:57,253 | INFO | step=690 loss=-5.8647 demo_sft=0.1357 demo_rl=-0.7504 rollout_rl=-5.2500 wSFT=0.4473 wRL=0.1514 pos=0 neg=2
+2026-03-07 22:06:05,158 | INFO | step=700 loss=-2.8975 demo_sft=0.1748 demo_rl=-0.6816 rollout_rl=-2.3906 wSFT=0.4512 wRL=0.1279 pos=0 neg=2
+2026-03-07 22:07:13,340 | INFO | step=710 loss=-2.6035 demo_sft=0.1719 demo_rl=-0.6660 rollout_rl=-2.1094 wSFT=0.4219 wRL=0.1348 pos=0 neg=2
+2026-03-07 22:08:21,020 | INFO | step=720 loss=-4.9870 demo_sft=0.1953 demo_rl=-0.6510 rollout_rl=-4.5312 wSFT=0.4434 wRL=0.1562 pos=0 neg=2
+2026-03-07 22:09:22,667 | INFO | step=730 loss=-4.8535 demo_sft=0.1836 demo_rl=-0.6621 rollout_rl=-4.3750 wSFT=0.4434 wRL=0.1475 pos=0 neg=2
+2026-03-07 22:10:31,318 | INFO | step=740 loss=-3.8203 demo_sft=0.1348 demo_rl=-0.7520 rollout_rl=-3.2031 wSFT=0.4590 wRL=0.1426 pos=0 neg=2
+2026-03-07 22:11:39,330 | INFO | step=750 loss=-6.3782 demo_sft=0.1504 demo_rl=-0.7161 rollout_rl=-5.8125 wSFT=0.4531 wRL=0.1260 pos=0 neg=2
+2026-03-07 22:12:47,402 | INFO | step=760 loss=-5.1665 demo_sft=0.1562 demo_rl=-0.6977 rollout_rl=-4.6250 wSFT=0.4238 wRL=0.1465 pos=0 neg=2
+2026-03-07 22:13:53,491 | INFO | step=770 loss=-4.8961 demo_sft=0.1689 demo_rl=-0.6900 rollout_rl=-4.3750 wSFT=0.4492 wRL=0.1260 pos=0 neg=2
+2026-03-07 22:15:00,193 | INFO | step=780 loss=-4.8363 demo_sft=0.1631 demo_rl=-0.6869 rollout_rl=-4.3125 wSFT=0.4375 wRL=0.1172 pos=0 neg=2
+2026-03-07 22:16:08,797 | INFO | step=790 loss=-4.1917 demo_sft=0.1050 demo_rl=-0.7967 rollout_rl=-3.5000 wSFT=0.4414 wRL=0.1309 pos=0 neg=2
+2026-03-07 22:16:10,057 | INFO | Train done in 12.3 min
+2026-03-07 22:16:10,060 | INFO | Saved adapter: runs_sft_grpo/srft_paper_L9/lora_adapter
+2026-03-07 22:16:10,062 | INFO | Saved rollout traces: logs_sft_grpo/srft_paper_traces_L9.jsonl

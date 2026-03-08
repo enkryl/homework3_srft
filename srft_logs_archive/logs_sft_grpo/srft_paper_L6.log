@@ -1,0 +1,15 @@
+2026-03-07 21:33:56,613 | INFO | === SRFT-PAPER LEVEL 6 ===
+2026-03-07 21:33:58,508 | INFO | Rollout dataset: mixed levels 1..6, n=13448
+2026-03-07 21:33:58,509 | INFO | Demo dataset: n=19448
+2026-03-07 21:34:04,364 | INFO | step=411 loss=-3.8123 demo_sft=0.1094 demo_rl=-0.7654 rollout_rl=-3.1562 wSFT=0.4121 wRL=0.2246 pos=0 neg=2
+2026-03-07 21:35:02,555 | INFO | step=420 loss=-2.7184 demo_sft=0.1108 demo_rl=-0.7667 rollout_rl=-2.0625 wSFT=0.4180 wRL=0.1846 pos=0 neg=2
+2026-03-07 21:36:02,818 | INFO | step=430 loss=-3.4423 demo_sft=0.0898 demo_rl=-0.8134 rollout_rl=-2.7188 wSFT=0.4375 wRL=0.1934 pos=0 neg=2
+2026-03-07 21:37:10,767 | INFO | step=440 loss=-2.4917 demo_sft=0.0825 demo_rl=-0.8242 rollout_rl=-1.7500 wSFT=0.4258 wRL=0.1572 pos=0 neg=2
+2026-03-07 21:38:15,845 | INFO | step=450 loss=-3.8441 demo_sft=0.0806 demo_rl=-0.8309 rollout_rl=-3.0938 wSFT=0.4375 wRL=0.1738 pos=0 neg=2
+2026-03-07 21:39:22,314 | INFO | step=460 loss=-3.7884 demo_sft=0.1177 demo_rl=-0.7655 rollout_rl=-3.1406 wSFT=0.4395 wRL=0.2988 pos=0 neg=2
+2026-03-07 21:40:25,232 | INFO | step=470 loss=-3.6306 demo_sft=0.1099 demo_rl=-0.7874 rollout_rl=-2.9531 wSFT=0.4453 wRL=0.1631 pos=0 neg=2
+2026-03-07 21:41:33,343 | INFO | step=480 loss=-3.9365 demo_sft=0.1226 demo_rl=-0.7466 rollout_rl=-3.3125 wSFT=0.4238 wRL=0.1709 pos=0 neg=2
+2026-03-07 21:42:40,511 | INFO | step=490 loss=-4.4385 demo_sft=0.1729 demo_rl=-0.6738 rollout_rl=-3.9375 wSFT=0.4219 wRL=0.1348 pos=0 neg=2
+2026-03-07 21:42:41,786 | INFO | Train done in 8.7 min
+2026-03-07 21:42:41,789 | INFO | Saved adapter: runs_sft_grpo/srft_paper_L6/lora_adapter
+2026-03-07 21:42:41,792 | INFO | Saved rollout traces: logs_sft_grpo/srft_paper_traces_L6.jsonl

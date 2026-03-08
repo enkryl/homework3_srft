@@ -109,7 +109,7 @@ def load_model_lora():
         model_name=MODEL_NAME,
         max_seq_length=MAX_SEQ_LEN,
         load_in_4bit=True,
-        fast_inference=False,
+        fast_inference=USE_VLLM,
     )
     model = FastLanguageModel.get_peft_model(
         model,
@@ -497,46 +497,50 @@ def train_sft(model, tokenizer, tag="sft"):
 # ============================================================
 # 9) STEP 3: SRFT
 # ============================================================
-def train_srft(model, tokenizer, tag="srft", levels=None, mix_previous=True):
+def train_srft(model, tokenizer, tag="srft", levels=None, mix_previous=True, skip_sft_warmup=False):
     """
     SRFT: SFT warmup (1 epoch) + GRPO curriculum (сокращённый).
     """
     if levels is None:
         levels = list(range(1, MAX_LEVEL + 1))
 
-    sft_ds = get_sft_dataset()
-
-    # Преобразуем messages → text
-    def to_text(example):
-        text = tokenizer.apply_chat_template(
-            example["messages"], tokenize=False, add_generation_prompt=False
-        )
-        return {"text": text}
-    sft_ds = sft_ds.map(to_text)
-
-    # SFT warmup
-    print("SRFT: SFT warmup...")
     sft_dir = RUNS_DIR / f"{tag}_sft_warmup"
     sft_dir.mkdir(parents=True, exist_ok=True)
 
-    sft_args = SFTConfig(
-        output_dir=str(sft_dir), seed=SEED,
-        dataset_text_field="text",
-        learning_rate=2e-5, optim="adamw_8bit",
-        lr_scheduler_type="cosine", warmup_ratio=0.1,
-        per_device_train_batch_size=2,
-        gradient_accumulation_steps=2,
-        num_train_epochs=1, max_seq_length=MAX_SEQ_LEN,
-        logging_steps=10, save_steps=0, report_to=[],
-    )
-    sft_trainer = SFTTrainer(
-        model=model, tokenizer=tokenizer,
-        args=sft_args, train_dataset=sft_ds,
-    )
-    sft_log = LOGS_DIR / f"{tag}_sft_warmup_metrics.jsonl"
-    sft_trainer.add_callback(JSONLCallback(sft_log))
-    sft_trainer.train()
-    print("SRFT: SFT warmup done")
+    if not skip_sft_warmup:
+        sft_ds = get_sft_dataset()
+        # Преобразуем messages → text
+        def to_text(example):
+            text = tokenizer.apply_chat_template(
+                example["messages"], tokenize=False, add_generation_prompt=False
+            )
+            return {"text": text}
+        sft_ds = sft_ds.map(to_text)
+
+        # SFT warmup
+        print("SRFT: SFT warmup...")
+        sft_args = SFTConfig(
+            output_dir=str(sft_dir), seed=SEED,
+            dataset_text_field="text",
+            learning_rate=2e-5, optim="adamw_8bit",
+            lr_scheduler_type="cosine", warmup_ratio=0.1,
+            per_device_train_batch_size=2,
+            gradient_accumulation_steps=2,
+            num_train_epochs=1, max_seq_length=MAX_SEQ_LEN,
+            logging_steps=10, save_steps=0, report_to=[],
+        )
+        sft_trainer = SFTTrainer(
+            model=model, tokenizer=tokenizer,
+            args=sft_args, train_dataset=sft_ds,
+        )
+        sft_log = LOGS_DIR / f"{tag}_sft_warmup_metrics.jsonl"
+        sft_trainer.add_callback(JSONLCallback(sft_log))
+        sft_trainer.train()
+        print("SRFT: SFT warmup done")
+        sft_adapter = sft_dir / "lora_adapter"
+        model.save_pretrained(sft_adapter)
+        tokenizer.save_pretrained(sft_adapter)
+        print(f"Saved SFT warmup adapter to {sft_adapter}")
 
     gc.collect()
     if torch.cuda.is_available(): torch.cuda.empty_cache()

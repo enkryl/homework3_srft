@@ -1,0 +1,4 @@
+2026-03-06 12:36:02,096 | INFO | === grpo_only LEVEL 9 ===
+2026-03-06 12:36:02,952 | INFO | Mixed dataset: 18448 (levels 1..9)
+2026-03-06 12:43:49,487 | INFO | Train done in 7.8 min
+2026-03-06 12:43:50,037 | INFO | Saved adapter: runs_exp/grpo_only_L9/lora_adapter

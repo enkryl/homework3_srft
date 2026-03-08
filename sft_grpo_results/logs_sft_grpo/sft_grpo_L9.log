@@ -1,0 +1,4 @@
+2026-03-06 21:42:23,056 | INFO | === sft_grpo LEVEL 9 ===
+2026-03-06 21:42:25,964 | INFO | Mixed dataset: 18448 (levels 1..9)
+2026-03-06 21:55:38,744 | INFO | Train done in 13.2 min
+2026-03-06 21:55:39,988 | INFO | Saved adapter: runs_sft_grpo/sft_grpo_L9/lora_adapter

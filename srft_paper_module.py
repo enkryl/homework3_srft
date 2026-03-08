@@ -23,6 +23,7 @@ srft_paper_module.py
 """
 
 from GRPO_full_experiment import *  # noqa: F401,F403
+from GRPO_full_experiment import _extract_expr
 
 import gc
 import json

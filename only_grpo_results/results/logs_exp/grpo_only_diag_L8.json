@@ -1,0 +1,815 @@
+{
+  "level": 8,
+  "pass_at_k": {
+    "1": 0.018125,
+    "4": 0.019999071991001125,
+    "8": 0.019999999993075484,
+    "16": 0.02,
+    "32": 0.02,
+    "64": 0.02,
+    "128": 0.02
+  },
+  "per_task": [
+    {
+      "idx": 0,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "98",
+        "80",
+        "20",
+        "99",
+        "3",
+        "59"
+      ],
+      "target": "116",
+      "gold_expr": "98 * 80 / 20 - 99 - 3 * 59",
+      "solved": false
+    },
+    {
+      "idx": 1,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "60",
+        "87",
+        "95",
+        "5",
+        "8",
+        "64"
+      ],
+      "target": "569",
+      "gold_expr": "60 + 87 - 95 + 5 + 8 * 64",
+      "solved": false
+    },
+    {
+      "idx": 2,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "13",
+        "49",
+        "95",
+        "48",
+        "78",
+        "42"
+      ],
+      "target": "145",
+      "gold_expr": "13 + 49 + 95 - 48 + 78 - 42",
+      "solved": false
+    },
+    {
+      "idx": 3,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "78",
+        "11",
+        "60",
+        "5",
+        "36",
+        "72"
+      ],
+      "target": "851",
+      "gold_expr": "78 + 11 * 60 + 5 + 36 + 72",
+      "solved": false
+    },
+    {
+      "idx": 4,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "5",
+        "36",
+        "96",
+        "60",
+        "2",
+        "68"
+      ],
+      "target": "406",
+      "gold_expr": "5 * 36 + 96 + 60 + 2 + 68",
+      "solved": false
+    },
+    {
+      "idx": 5,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "24",
+        "12",
+        "80",
+        "21",
+        "9",
+        "33"
+      ],
+      "target": "686",
+      "gold_expr": "24 * 12 + 80 + 21 + 9 * 33",
+      "solved": false
+    },
+    {
+      "idx": 6,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "52",
+        "48",
+        "73",
+        "20",
+        "45",
+        "5"
+      ],
+      "target": "922",
+      "gold_expr": "52 + 48 - 73 + 20 * 45 - 5",
+      "solved": false
+    },
+    {
+      "idx": 7,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "57",
+        "77",
+        "56",
+        "9",
+        "25",
+        "90"
+      ],
+      "target": "171",
+      "gold_expr": "57 - 77 + 56 + 9 * 25 - 90",
+      "solved": false
+    },
+    {
+      "idx": 8,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "68",
+        "17",
+        "57",
+        "43",
+        "9",
+        "40"
+      ],
+      "target": "672",
+      "gold_expr": "68 * 17 - 57 - 43 * 9 - 40",
+      "solved": false
+    },
+    {
+      "idx": 9,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "22",
+        "57",
+        "61",
+        "47",
+        "67",
+        "49"
+      ],
+      "target": "381",
+      "gold_expr": "22 - 57 - 61 * 47 + 67 * 49",
+      "solved": false
+    },
+    {
+      "idx": 10,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "74",
+        "51",
+        "75",
+        "46",
+        "46",
+        "16"
+      ],
+      "target": "184",
+      "gold_expr": "74 + 51 + 75 + 46 - 46 - 16",
+      "solved": false
+    },
+    {
+      "idx": 11,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "35",
+        "56",
+        "68",
+        "38",
+        "31",
+        "94"
+      ],
+      "target": "72",
+      "gold_expr": "35 + 56 + 68 + 38 - 31 - 94",
+      "solved": false
+    },
+    {
+      "idx": 12,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "52",
+        "93",
+        "63",
+        "8",
+        "22",
+        "46"
+      ],
+      "target": "673",
+      "gold_expr": "52 + 93 + 63 * 8 - 22 + 46",
+      "solved": false
+    },
+    {
+      "idx": 13,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "35",
+        "83",
+        "22",
+        "20",
+        "55",
+        "76"
+      ],
+      "target": "15",
+      "gold_expr": "35 - 83 + 22 + 20 - 55 + 76",
+      "solved": false
+    },
+    {
+      "idx": 14,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "98",
+        "24",
+        "72",
+        "2",
+        "86",
+        "47"
+      ],
+      "target": "39",
+      "gold_expr": "98 - 24 - 72 - 2 + 86 - 47",
+      "solved": false
+    },
+    {
+      "idx": 15,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "20",
+        "45",
+        "41",
+        "85",
+        "20",
+        "58"
+      ],
+      "target": "696",
+      "gold_expr": "20 * 45 - 41 - 85 - 20 - 58",
+      "solved": false
+    },
+    {
+      "idx": 16,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "70",
+        "67",
+        "22",
+        "88",
+        "43",
+        "15"
+      ],
+      "target": "189",
+      "gold_expr": "70 + 67 + 22 + 88 - 43 - 15",
+      "solved": false
+    },
+    {
+      "idx": 17,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "2",
+        "16",
+        "58",
+        "65",
+        "87",
+        "78"
+      ],
+      "target": "2",
+      "gold_expr": "2 + 16 + 58 - 65 - 87 + 78",
+      "solved": false
+    },
+    {
+      "idx": 18,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "33",
+        "82",
+        "9",
+        "38",
+        "17",
+        "43"
+      ],
+      "target": "813",
+      "gold_expr": "33 + 82 + 9 + 38 * 17 + 43",
+      "solved": false
+    },
+    {
+      "idx": 19,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "39",
+        "63",
+        "92",
+        "84",
+        "13",
+        "34"
+      ],
+      "target": "47",
+      "gold_expr": "39 + 63 - 92 + 84 - 13 - 34",
+      "solved": false
+    },
+    {
+      "idx": 20,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "66",
+        "62",
+        "12",
+        "73",
+        "57",
+        "15"
+      ],
+      "target": "25",
+      "gold_expr": "66 - 62 + 12 * 73 - 57 * 15",
+      "solved": false
+    },
+    {
+      "idx": 21,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "62",
+        "18",
+        "16",
+        "26",
+        "13",
+        "91"
+      ],
+      "target": "116",
+      "gold_expr": "62 + 18 - 16 - 26 - 13 + 91",
+      "solved": false
+    },
+    {
+      "idx": 22,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "75",
+        "5",
+        "57",
+        "21",
+        "88",
+        "87"
+      ],
+      "target": "35",
+      "gold_expr": "75 - 5 - 57 + 21 + 88 - 87",
+      "solved": false
+    },
+    {
+      "idx": 23,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "25",
+        "40",
+        "40",
+        "34",
+        "62",
+        "67"
+      ],
+      "target": "466",
+      "gold_expr": "25 - 40 * 40 + 34 * 62 - 67",
+      "solved": false
+    },
+    {
+      "idx": 24,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "74",
+        "61",
+        "16",
+        "57",
+        "87",
+        "58"
+      ],
+      "target": "85",
+      "gold_expr": "74 - 61 - 16 - 57 + 87 + 58",
+      "solved": false
+    },
+    {
+      "idx": 25,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "8",
+        "25",
+        "73",
+        "89",
+        "47",
+        "2"
+      ],
+      "target": "139",
+      "gold_expr": "8 * 25 + 73 - 89 - 47 + 2",
+      "solved": false
+    },
+    {
+      "idx": 26,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "97",
+        "16",
+        "13",
+        "13",
+        "12",
+        "28"
+      ],
+      "target": "95",
+      "gold_expr": "97 - 16 - 13 - 13 + 12 + 28",
+      "solved": false
+    },
+    {
+      "idx": 27,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "45",
+        "3",
+        "87",
+        "12",
+        "43",
+        "40"
+      ],
+      "target": "862",
+      "gold_expr": "45 + 3 * 87 + 12 * 43 + 40",
+      "solved": false
+    },
+    {
+      "idx": 28,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "24",
+        "79",
+        "35",
+        "44",
+        "24",
+        "92"
+      ],
+      "target": "250",
+      "gold_expr": "24 + 79 + 35 + 44 - 24 + 92",
+      "solved": false
+    },
+    {
+      "idx": 29,
+      "n_correct": 116,
+      "n_total": 128,
+      "numbers": [
+        "2",
+        "89",
+        "7",
+        "16",
+        "77",
+        "44"
+      ],
+      "target": "57",
+      "gold_expr": "2 - 89 + 7 + 16 + 77 + 44",
+      "solved": true
+    },
+    {
+      "idx": 30,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "35",
+        "16",
+        "45",
+        "76",
+        "69",
+        "24"
+      ],
+      "target": "498",
+      "gold_expr": "35 * 16 - 45 + 76 - 69 - 24",
+      "solved": false
+    },
+    {
+      "idx": 31,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "47",
+        "43",
+        "96",
+        "12",
+        "7",
+        "63"
+      ],
+      "target": "553",
+      "gold_expr": "47 - 43 + 96 + 12 + 7 * 63",
+      "solved": false
+    },
+    {
+      "idx": 32,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "83",
+        "40",
+        "92",
+        "90",
+        "21",
+        "69"
+      ],
+      "target": "31",
+      "gold_expr": "83 + 40 - 92 - 90 + 21 + 69",
+      "solved": false
+    },
+    {
+      "idx": 33,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "57",
+        "86",
+        "57",
+        "28",
+        "14",
+        "86"
+      ],
+      "target": "130",
+      "gold_expr": "57 + 86 - 57 - 28 - 14 + 86",
+      "solved": false
+    },
+    {
+      "idx": 34,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "84",
+        "30",
+        "64",
+        "85",
+        "40",
+        "69"
+      ],
+      "target": "202",
+      "gold_expr": "84 + 30 + 64 - 85 + 40 + 69",
+      "solved": false
+    },
+    {
+      "idx": 35,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "92",
+        "48",
+        "16",
+        "21",
+        "6",
+        "39"
+      ],
+      "target": "806",
+      "gold_expr": "92 + 48 * 16 - 21 + 6 - 39",
+      "solved": false
+    },
+    {
+      "idx": 36,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "38",
+        "18",
+        "6",
+        "18",
+        "75",
+        "97"
+      ],
+      "target": "404",
+      "gold_expr": "38 * 18 - 6 * 18 - 75 - 97",
+      "solved": false
+    },
+    {
+      "idx": 37,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "23",
+        "25",
+        "23",
+        "72",
+        "45",
+        "3"
+      ],
+      "target": "95",
+      "gold_expr": "23 - 25 - 23 + 72 + 45 + 3",
+      "solved": false
+    },
+    {
+      "idx": 38,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "77",
+        "81",
+        "64",
+        "66",
+        "82",
+        "66"
+      ],
+      "target": "955",
+      "gold_expr": "77 * 81 + 64 - 66 * 82 + 66",
+      "solved": false
+    },
+    {
+      "idx": 39,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "10",
+        "27",
+        "27",
+        "27",
+        "40",
+        "99"
+      ],
+      "target": "177",
+      "gold_expr": "10 + 27 + 27 / 27 + 40 + 99",
+      "solved": false
+    },
+    {
+      "idx": 40,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "33",
+        "2",
+        "78",
+        "84",
+        "31",
+        "53"
+      ],
+      "target": "50",
+      "gold_expr": "33 * 2 - 78 + 84 + 31 - 53",
+      "solved": false
+    },
+    {
+      "idx": 41,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "21",
+        "22",
+        "22",
+        "75",
+        "38",
+        "3"
+      ],
+      "target": "295",
+      "gold_expr": "21 * 22 + 22 - 75 - 38 * 3",
+      "solved": false
+    },
+    {
+      "idx": 42,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "25",
+        "32",
+        "28",
+        "41",
+        "98",
+        "68"
+      ],
+      "target": "100",
+      "gold_expr": "25 + 32 - 28 + 41 + 98 - 68",
+      "solved": false
+    },
+    {
+      "idx": 43,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "66",
+        "10",
+        "79",
+        "22",
+        "35",
+        "71"
+      ],
+      "target": "870",
+      "gold_expr": "66 + 10 * 79 - 22 - 35 + 71",
+      "solved": false
+    },
+    {
+      "idx": 44,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "84",
+        "71",
+        "97",
+        "55",
+        "20",
+        "15"
+      ],
+      "target": "465",
+      "gold_expr": "84 - 71 + 97 + 55 + 20 * 15",
+      "solved": false
+    },
+    {
+      "idx": 45,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "93",
+        "83",
+        "92",
+        "4",
+        "95",
+        "5"
+      ],
+      "target": "182",
+      "gold_expr": "93 + 83 + 92 + 4 - 95 + 5",
+      "solved": false
+    },
+    {
+      "idx": 46,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "22",
+        "99",
+        "5",
+        "3",
+        "41",
+        "6"
+      ],
+      "target": "268",
+      "gold_expr": "22 + 99 * 5 - 3 - 41 * 6",
+      "solved": false
+    },
+    {
+      "idx": 47,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "21",
+        "27",
+        "15",
+        "82",
+        "90",
+        "70"
+      ],
+      "target": "668",
+      "gold_expr": "21 + 27 * 15 + 82 + 90 + 70",
+      "solved": false
+    },
+    {
+      "idx": 48,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "37",
+        "21",
+        "91",
+        "76",
+        "75",
+        "1"
+      ],
+      "target": "686",
+      "gold_expr": "37 * 21 - 91 + 76 - 75 - 1",
+      "solved": false
+    },
+    {
+      "idx": 49,
+      "n_correct": 0,
+      "n_total": 128,
+      "numbers": [
+        "38",
+        "43",
+        "33",
+        "19",
+        "36",
+        "87"
+      ],
+      "target": "819",
+      "gold_expr": "38 + 43 - 33 + 19 * 36 + 87",
+      "solved": false
+    }
+  ],
+  "tag": "grpo_only"
+}

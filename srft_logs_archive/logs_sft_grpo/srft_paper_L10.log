@@ -1,0 +1,20 @@
+2026-03-07 22:16:10,680 | INFO | === SRFT-PAPER LEVEL 10 ===
+2026-03-07 22:16:13,493 | INFO | Rollout dataset: mixed levels 1..10, n=19448
+2026-03-07 22:16:13,494 | INFO | Demo dataset: n=19448
+2026-03-07 22:16:20,380 | INFO | step=791 loss=-3.8237 demo_sft=0.0688 demo_rl=-0.8613 rollout_rl=-3.0312 wSFT=0.4609 wRL=0.1187 pos=0 neg=2
+2026-03-07 22:17:19,208 | INFO | step=800 loss=-4.9745 demo_sft=0.1641 demo_rl=-0.7010 rollout_rl=-4.4375 wSFT=0.4629 wRL=0.1445 pos=0 neg=2
+2026-03-07 22:18:27,522 | INFO | step=810 loss=-6.1748 demo_sft=0.1807 demo_rl=-0.6680 rollout_rl=-5.6875 wSFT=0.4414 wRL=0.1680 pos=0 neg=2
+2026-03-07 22:19:33,622 | INFO | step=820 loss=-5.1538 demo_sft=0.0825 demo_rl=-0.8301 rollout_rl=-4.4062 wSFT=0.4395 wRL=0.1270 pos=0 neg=2
+2026-03-07 22:20:41,428 | INFO | step=830 loss=-3.4585 demo_sft=0.1216 demo_rl=-0.7676 rollout_rl=-2.8125 wSFT=0.4551 wRL=0.1348 pos=0 neg=2
+2026-03-07 22:21:48,964 | INFO | step=840 loss=-4.6328 demo_sft=0.1699 demo_rl=-0.6777 rollout_rl=-4.1250 wSFT=0.4355 wRL=0.1328 pos=0 neg=2
+2026-03-07 22:22:57,442 | INFO | step=850 loss=-2.7256 demo_sft=0.1006 demo_rl=-0.7949 rollout_rl=-2.0312 wSFT=0.4395 wRL=0.1235 pos=0 neg=2
+2026-03-07 22:24:04,959 | INFO | step=860 loss=-7.2772 demo_sft=0.1289 demo_rl=-0.7498 rollout_rl=-6.6562 wSFT=0.4414 wRL=0.1348 pos=0 neg=2
+2026-03-07 22:25:12,247 | INFO | step=870 loss=-5.7090 demo_sft=0.1680 demo_rl=-0.6895 rollout_rl=-5.1875 wSFT=0.4512 wRL=0.1299 pos=0 neg=2
+2026-03-07 22:26:15,225 | INFO | step=880 loss=-5.7607 demo_sft=0.1924 demo_rl=-0.6406 rollout_rl=-5.3125 wSFT=0.4316 wRL=0.1670 pos=0 neg=2
+2026-03-07 22:27:22,995 | INFO | step=890 loss=-5.9989 demo_sft=0.1611 demo_rl=-0.6913 rollout_rl=-5.4688 wSFT=0.4355 wRL=0.1465 pos=0 neg=2
+2026-03-07 22:28:31,522 | INFO | step=900 loss=-3.0405 demo_sft=0.1216 demo_rl=-0.7715 rollout_rl=-2.3906 wSFT=0.4648 wRL=0.1270 pos=0 neg=2
+2026-03-07 22:29:38,821 | INFO | step=910 loss=-4.7627 demo_sft=0.1240 demo_rl=-0.7617 rollout_rl=-4.1250 wSFT=0.4512 wRL=0.1475 pos=0 neg=2
+2026-03-07 22:30:12,458 | INFO | step=915 loss=-6.1873 demo_sft=0.1426 demo_rl=-0.7361 rollout_rl=-5.5938 wSFT=0.4609 wRL=0.1895 pos=0 neg=2
+2026-03-07 22:30:13,889 | INFO | Train done in 14.0 min
+2026-03-07 22:30:13,892 | INFO | Saved adapter: runs_sft_grpo/srft_paper_L10/lora_adapter
+2026-03-07 22:30:13,895 | INFO | Saved rollout traces: logs_sft_grpo/srft_paper_traces_L10.jsonl

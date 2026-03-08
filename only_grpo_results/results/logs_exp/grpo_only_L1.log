@@ -1,0 +1,12 @@
+2026-03-06 10:53:06,250 | INFO | === grpo_only LEVEL 1 ===
+2026-03-06 10:53:06,580 | INFO | Dataset: 172 (level 1)
+2026-03-06 11:03:52,475 | INFO | === grpo_only LEVEL 1 ===
+2026-03-06 11:03:52,606 | INFO | Dataset: 172 (level 1)
+2026-03-06 11:07:01,892 | INFO | === grpo_only LEVEL 1 ===
+2026-03-06 11:07:02,026 | INFO | Dataset: 172 (level 1)
+2026-03-06 11:27:07,197 | INFO | === grpo_only LEVEL 1 ===
+2026-03-06 11:27:07,348 | INFO | Dataset: 172 (level 1)
+2026-03-06 11:48:01,905 | INFO | === grpo_only LEVEL 1 ===
+2026-03-06 11:48:02,053 | INFO | Dataset: 172 (level 1)
+2026-03-06 11:57:07,976 | INFO | Train done in 9.1 min
+2026-03-06 11:57:08,476 | INFO | Saved adapter: runs_exp/grpo_only_L1/lora_adapter

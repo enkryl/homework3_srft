@@ -1,0 +1,3 @@
+2026-03-06 19:00:31,688 | INFO | SFT dataset: 19448 examples
+2026-03-06 20:05:29,760 | INFO | SFT done in 64.8 min
+2026-03-06 20:05:31,010 | INFO | Saved SFT adapter: runs_sft_grpo/sft_phase/lora_adapter
